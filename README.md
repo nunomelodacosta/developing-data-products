@@ -7,7 +7,8 @@ for output. The mainPanel is built based on a *tabsetPanel* with 5 tabPanel
 
 * In the left side input  the predictors values of our selected model.  
 * The output is produced in the right, under **Prediction**. It is reactive to 
-input changes. 
+input changes. Note that the horizontal line has y equal to the predictid *mpg*. In
+addition you also can see displayed the numeric value.
 * **Residual** tab plots static residual graphs  
 * **Pairs** plots static pair wise comparison between the selected model predictors  
 * **Google charts** plots a dynamic graph based on *googleVis* library. Use can 
